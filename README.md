@@ -23,7 +23,7 @@ Use this specification to exercise the API with tools like Postman, the visual
 REST client or VS Code Thunder client "Extension"
 
 -   / POST
--   Some stuffs
+    -   Some stuffs
 -   / GET
 -   / PUT
 -   / DELETE
