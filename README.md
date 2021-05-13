@@ -16,3 +16,8 @@ focused on relevance.
 | **JavaScript** | Clients | SDK/Libraries | Tools      |
 | -------------- | ------- | ------------- | ---------- |
 | **/ Node.js**  | **--**  | **--**        | Express.js |
+
+> OpenAPI specification
+
+Use this specification to exercise the API with tools like Postman or VS Code
+Thunder client
