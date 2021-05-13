@@ -79,7 +79,7 @@ router.put('/:id', async (req, res) => {
     if (email) userFields.email = email;
     if (country) userFields.country = country;
     try {
-        let user = User.findById(req.params.id);
+        let user = await User.findById(req.params.id);
         if (!user) res.status(404).json({ msg: 'User not found' });
         user = await User.findByIdAndUpdate(
             req.params.id,
@@ -93,8 +93,15 @@ router.put('/:id', async (req, res) => {
 });
 
 // DELETE
-router.delete('/:id', (req, res) => {
-    res.send('Deleting request');
+router.delete('/:id', async (req, res) => {
+    try {
+        let user = await User.findById(req.params.id);
+        if (!user) res.status(404).json({ msg: 'User not found' });
+        user = await User.findByIdAndRemove(req.params.id);
+        res.json({ msg: 'Contact Removed' });
+    } catch (err) {
+        res.status(500).json({ msg: err.message });
+    }
 });
 
 module.exports = router;
