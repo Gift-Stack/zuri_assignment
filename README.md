@@ -41,9 +41,15 @@ REST client or VS Code Thunder client "Extension"
         ['zuri-assignment.herokuapp.com/'](zuri-assignment.herokuapp.com/) to
         "READ" the data already stored in the database.
 
-        **Due to no applicstion of any third party authentication, the email is
+        **Due to unavailability of any third party authentication, the email is
         needed to be sent as body data to the REST client like POSTMAN or from
-        your actual client application like React App**
+        your actual client application like React App to verify whose or which
+        data is needed to be read**
+
+        This helps prevent you reading others data and vise versa
+
+        Food for thought; Copy and save your user **id** somewhere cause that is
+        needed to update your data
 
 -   / PUT
 -   / DELETE
