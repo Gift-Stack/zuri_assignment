@@ -24,7 +24,7 @@ REST client or VS Code Thunder client "Extension"
 
 -   / POST
     -   The POST request on the endpoint
-        'zuri-assignment.herokuapp.com/'[Link](zuri-assignment.herokuapp.com/)
+        ['zuri-assignment.herokuapp.com/'](zuri-assignment.herokuapp.com/)
 -   / GET
 -   / PUT
 -   / DELETE
