@@ -21,3 +21,7 @@ focused on relevance.
 
 Use this specification to exercise the API with tools like Postman or VS Code
 Thunder client
+
+> URL
+
+A command-line tool (CLI) for interacting with this API requires Node runtime
