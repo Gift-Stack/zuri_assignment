@@ -24,8 +24,8 @@ REST client or VS Code Thunder client "Extension"
 
 -   / POST
 
-    -   The POST request is hit on the endpoint
-        ['zuri-assignment.herokuapp.com/'](zuri-assignment.herokuapp.com/) to
+    -   The POST request is hit on the endpoint,
+        ['zuri-assignment.herokuapp.com/'](zuri-assignment.herokuapp.com/) ,to
         "CREATE" the necessary data.
 
         _**NB:** The required data consists {name,email,country}_
@@ -38,8 +38,8 @@ REST client or VS Code Thunder client "Extension"
 -   / GET
 
     -   The GET request is hit on the
-        ['zuri-assignment.herokuapp.com/'](zuri-assignment.herokuapp.com/) to
-        "READ" the data already stored in the database.
+        ['zuri-assignment.herokuapp.com/'](zuri-assignment.herokuapp.com/)
+        endpoint to "READ" the data already stored in the database.
 
         **Due to unavailability of any third party authentication, the email is
         needed to be sent as body data to the REST client like POSTMAN or from
@@ -52,7 +52,17 @@ REST client or VS Code Thunder client "Extension"
         is needed to update your data_
 
 -   / PUT
+    -   The PUT request is hit on the
+        ['zuri-assignment.herokuapp.com/:id'](zuri-assignment.herokuapp.com/)
+        endpoint where **:id** is this **id** returned after the get request
 -   / DELETE
+
+    -   The DELETE request is hit on the
+        ['zuri-assignment.herokuapp.com/:id'](zuri-assignment.herokuapp.com/)
+        endpoint where **:id** is this **id** returned after the get request
+
+        _After the delete request gets called the delete success message is
+        returned._
 
 > URL
 
