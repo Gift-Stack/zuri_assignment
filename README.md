@@ -25,7 +25,7 @@ REST client or VS Code Thunder client "Extension"
 -   / POST
 -   / GET
 -   / PUT
--   DELETE
+-   / DELETE
 
 > URL
 
