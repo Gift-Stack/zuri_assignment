@@ -1,2 +1,3 @@
 # zuri_assignment
-API link
+
+![Example](/images/example.png) Format: ![Alt Text](url)
