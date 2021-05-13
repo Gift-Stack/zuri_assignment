@@ -1,3 +1,3 @@
 # zuri_assignment
 
-![Example](./images/example.png) Format: ![Alt Text](url)
+https://github.com/Gift-Stack/zuri_assignment/blob/main/image/example.png
