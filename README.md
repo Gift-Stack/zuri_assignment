@@ -48,8 +48,8 @@ REST client or VS Code Thunder client "Extension"
 
         This helps prevent you reading others data and vise versa
 
-        Food for thought; Copy and save your user **id** somewhere cause that is
-        needed to update your data
+        _Food for thought; Copy and save your **user id** somewhere cause that
+        is needed to update your data_
 
 -   / PUT
 -   / DELETE
