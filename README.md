@@ -13,9 +13,9 @@ focused on relevance.
 
 > Tools and libraries
 
-| **JavaScript** | Clients | SDK/Libraries | Tools      |
-| -------------- | ------- | ------------- | ---------- |
-| **/ Node.js**  | **--**  | **--**        | Express.js |
+| **JavaScript** | Clients | SDK/Libraries | Tools                                |
+| -------------- | ------- | ------------- | ------------------------------------ |
+| **/ Node.js**  | **--**  | **--**        | [Express.js](https://expressjs.com/) |
 
 > OpenAPI specification
 
