@@ -26,13 +26,25 @@ REST client or VS Code Thunder client "Extension"
 
     -   The POST request is hit on the endpoint
         ['zuri-assignment.herokuapp.com/'](zuri-assignment.herokuapp.com/) to
-        add the necessary data.
+        "CREATE" the necessary data.
 
         _**NB:** The required data consists {name,email,country}_
 
         If email has been registered, this would cause an error to be thrown
 
+        If all goes right, the data passed in would be returned as a response
+        with a success message as shown above.
+
 -   / GET
+
+    -   The GET request is hit on the
+        ['zuri-assignment.herokuapp.com/'](zuri-assignment.herokuapp.com/) to
+        "READ" the data already stored in the database.
+
+        **Due to no applicstion of any third party authentication, the email is
+        needed to be sent as body data to the REST client like POSTMAN or from
+        your actual client application like React App**
+
 -   / PUT
 -   / DELETE
 
