@@ -30,6 +30,8 @@ REST client or VS Code Thunder client "Extension"
 
         _**NB:** The required data consists {name,email,country}_
 
+        If email has been registered, this would cause an error to be thrown
+
 -   / GET
 -   / PUT
 -   / DELETE
