@@ -23,8 +23,13 @@ Use this specification to exercise the API with tools like Postman, the visual
 REST client or VS Code Thunder client "Extension"
 
 -   / POST
-    -   The POST request on the endpoint
-        ['zuri-assignment.herokuapp.com/'](zuri-assignment.herokuapp.com/)
+
+    -   The POST request is hit on the endpoint
+        ['zuri-assignment.herokuapp.com/'](zuri-assignment.herokuapp.com/) to
+        add the necessary data.
+
+        _**NB:** The required data consists {name,email,country}_
+
 -   / GET
 -   / PUT
 -   / DELETE
