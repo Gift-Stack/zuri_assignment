@@ -1,3 +1,3 @@
 # zuri_assignment
 
-https://github.com/Gift-Stack/zuri_assignment/blob/main/image/example.png
+![example](https://user-images.githubusercontent.com/72243506/118078934-fb110000-b36b-11eb-9945-bfb1c418cf9e.png)
