@@ -23,7 +23,8 @@ Use this specification to exercise the API with tools like Postman, the visual
 REST client or VS Code Thunder client "Extension"
 
 -   / POST
-    -   Some stuffs
+    -   The POST request on the endpoint
+        'zuri-assignment.herokuapp.com/'[Link](zuri-assignment.herokuapp.com/)
 -   / GET
 -   / PUT
 -   / DELETE
